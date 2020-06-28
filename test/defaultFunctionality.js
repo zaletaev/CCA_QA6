@@ -17,7 +17,7 @@ describe('Default counter functionality', function () {
             button.click();
             const countValue = $('.badge').getText();
             expect(countValue).toEqual('2');
-        })
+        });
 
     });
 
