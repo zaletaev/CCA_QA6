@@ -1,0 +1,22 @@
+{
+  "general": {
+    "header": "h1",
+    "totalResult": "h3.total-count",
+    "addNameField": "[name='name']",
+    "addNameFieldLabel": "label",
+    "defaultValueField": "[name='value']",
+    "defaultValueFieldLabel": "label",
+    "addCounterBtn": ".btn-success"
+  },
+  "counter": {
+    "counterName": "//div[@class='container-fluid counter-wrapper']//h3[1]",
+    "lowerLimitField": "//input[@name='lower']",
+    "upperLimitField": "//input[@name='upper']",
+    "countValue": "//span[@class='badge primary badge-primary']",
+    "deleteBtn": "//button[@id='1']",
+    "reset": "//button[@class='btn-primary btn Ripple-parent reset']",
+    "editNameField": "//input[@id='1']",
+    "editNameFieldLabel": "//label[contains(text(),'Edit Counter Title:')]",
+    "blackBtn": ".btnBlack"
+  }
+}
